@@ -1,0 +1,77 @@
+/*.text-center {
+  text-align: center !important;
+}
+*/
+.resume {
+  position: relative;
+  padding-top: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.resume > li {
+  position: relative;
+  min-height: 170px;
+  margin-bottom: 50px;
+}
+
+.resume:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: rgba(200, 203, 207, 0.6);
+}
+
+/*.resume > li {
+  margin-bottom: 100px;
+}*/
+
+.resume > ul {
+  width: 30%;
+}
+
+.resume-body {
+  position: relative;
+  padding: 0 20px 0 0;
+  width: 41%;
+  height: 10%;
+  float: left;
+  text-align: right;
+}
+
+#reverse {
+  float: right;
+  text-align: left;
+}
+
+.resume-body > h2 {
+  color: rgba(0, 0, 255, 0.6);
+  font-size: 200%;
+  padding: 1% 0% 1% 0%;
+}
+
+.resume-image {
+  position: absolute;
+  left: 45.2%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  color: white;
+  border: 8px solid rgba(230, 234, 237, 0.9);
+  border-radius: 100%;
+  background-color: white;
+}
+
+.resume-image > img {
+/*  width: 120px;
+  height: 120px;*/
+  max-width: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  max-width: 100%;
+}
