@@ -83,6 +83,14 @@ h4 {
   color: rgba(0, 0, 255, 0.8);
 }
 
+td {
+  padding:0 30px 5px 0;
+}
+
+tr {
+  padding: 0 0 5px 0;
+}
+
 /* Discussion */
 .disc {
   font-size: 1em;
