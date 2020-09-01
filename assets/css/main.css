@@ -214,3 +214,7 @@ img {
 .clear {
     clear: both;
 }
+
+a:visited {
+  color: blue;
+}
