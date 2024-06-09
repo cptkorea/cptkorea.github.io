@@ -14,7 +14,7 @@
 }
 
 #bio {
-  background: rgba(0, 0, 203, 0);
+  background: rgba(0, 0, 203, 0.3);
   overflow-x: hidden;
 }
 
@@ -72,7 +72,7 @@ section {
   object-fit: cover;
 }
 
-/* Banner */
+/* Panel */
 .panel {
   width: 100%;
   float: left;
@@ -239,7 +239,7 @@ img {
 /* Contact */
 #contact {
   display: block;
-  color: black;
+  font-size: 1.5em;
   padding-bottom: 2%;
 }
 
