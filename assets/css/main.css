@@ -10,16 +10,23 @@
 
 #mainpage {
   background: #e7dfd8;
+  background-color: #e7dfd8;
   overflow-x: hidden;
+  height: 100%;
 }
 
 #bio {
   background: #e7dfd8;
+  background-color: #e7dfd8;
   overflow-x: hidden;
 }
 
 html,
-body,
+body {
+  margin: 0;
+  height: 100%;
+}
+
 div,
 span,
 h1,
@@ -111,6 +118,7 @@ section {
 
 #profile>img {
   width: 55%;
+  padding-left: 10%;
 }
 
 #title-center {
