@@ -253,17 +253,23 @@ a:visited {
   margin: 0 auto;
 }
 
+/* https://github.com/CompositionalIT/SAFE-Landing-Source/blob/master/resources/_gen/assets/sass/style.sass_5ad6f408b0e3e473c748aac88af0ea18.content#L123-L134 */
 .contact-btn {
   display: inline-flex;
   align-items: center;
-  padding: 1% 1%;
-  margin: 1% 1%;
-  font-size: 16px;
+  background-color: transparent;
+  padding: 0 0.1em;
+  margin: 0.1em 0.1em;
+  font-size: 2em;
   font-weight: bold;
   color: white;
   opacity: 1;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  outline: none;
+}
+
+.contact-btn>a>i {
+  color: black;
 }
