@@ -4,7 +4,7 @@
   padding-top: 0em;
   margin: 0 auto;
   max-width: 100%;
-  color: #FFFFFF;
+  color: black;
   overflow-x: hidden;
 }
 
@@ -68,6 +68,21 @@ section {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* Banner */
+.panel {
+  width: 100%;
+  float: left;
+  text-align: left;
+  font-size: 3em;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .inner {
@@ -94,7 +109,6 @@ section {
 }
 
 #major {
-  background-image: url("../../images/background.jpg");
   overflow: hidden;
   object-fit: cover;
 }
@@ -115,7 +129,6 @@ section {
 
 
 #sub {
-  float: left;
   position: relative;
   font-size: 50%;
   display: inline-block;
@@ -145,7 +158,7 @@ section {
 
 .nav-list>li>a {
   font-size: 50%;
-  color: rgba(255, 255, 255, 1);
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
 }
