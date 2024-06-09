@@ -71,7 +71,7 @@ section {
 }
 
 .inner {
-  float: left;
+  height: 80%;
   font-size: 120%;
   display: inline-block;
 }
@@ -226,6 +226,7 @@ img {
 /* Contact */
 #contact {
   display: block;
+  color: black;
   padding-bottom: 2%;
 }
 
