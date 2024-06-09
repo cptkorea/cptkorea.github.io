@@ -4,27 +4,60 @@
   padding-top: 0em;
   margin: 0 auto;
   max-width: 100%;
-  color: #FFFFFF;
-  overflow-x:hidden;
+  color: black;
+  overflow-x: hidden;
 }
 
 #mainpage {
-  background: rgba(255, 255, 255, 0.3);
-  overflow-x:hidden;
+  background: #e7dfd8;
+  background-color: #e7dfd8;
+  overflow-x: hidden;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, 
-article, section, ul, li, nav {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font-family: 'Montserrat', sans-serif;
-vertical-align: baseline;
+#bio {
+  background: #e7dfd8;
+  background-color: #e7dfd8;
+  overflow-x: hidden;
 }
 
-article, header, menu, nav, section {
-display: block;}
+html,
+body,
+div {
+  margin: 0;
+  height: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+article,
+section,
+ul,
+li,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  vertical-align: baseline;
+}
+
+article,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
 
 /* Header */
 .bottom-left {
@@ -38,30 +71,53 @@ display: block;}
 .banner {
   width: 100%;
   float: left;
-  text-align:left;
+  text-align: left;
   font-size: 3em;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* Panel */
+.panel {
+  width: 100%;
+  float: left;
+  text-align: left;
+  font-size: 3em;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .inner {
-  float: left;
+  height: 80%;
   font-size: 120%;
+  padding: 4%;
   display: inline-block;
 }
 
-.inner > h1 {
+.inner>h1 {
   padding-bottom: 1%;
-  border-bottom: rgba(255,255,255, 0.6);
+  border-bottom: rgba(255, 255, 255, 0.6);
   border-bottom-style: solid;
   margin-bottom: 1%;
   font: inherit;
   font-family: 'Montserrat', sans-serif;
 }
 
-#title-left {
-  padding: 11% 0% 13% 5%;
+#name {
+  width: 40%;
+}
+
+#profile {
+  width: 40%;
+}
+
+#profile>img {
+  width: 55%;
+  padding-left: 10%;
 }
 
 #title-center {
@@ -69,7 +125,6 @@ display: block;}
 }
 
 #major {
-  background-image: url("../../images/background.jpg");
   overflow: hidden;
   object-fit: cover;
 }
@@ -90,7 +145,6 @@ display: block;}
 
 
 #sub {
-  float: left;
   position: relative;
   font-size: 50%;
   display: inline-block;
@@ -113,23 +167,23 @@ display: block;}
   overflow: hidden;
 }
 
-.nav-list > li {
+.nav-list>li {
   display: inline-block;
   padding: 0% 2% 0% 2%;
 }
 
-.nav-list > li > a {
+.nav-list>li>a {
   font-size: 50%;
-  color: rgba(255, 255, 255, 1);
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.nav-list > li > #port {
+.nav-list>li>#port {
   color: rgba(0, 0, 128, 0.8);
 }
 
-.nav-list > li > #proj {
+.nav-list>li>#proj {
   color: rgba(0, 0, 255, 0.5);
 }
 
@@ -142,12 +196,12 @@ display: block;}
 }
 
 .container {
+  width: 100%;
   position: relative;
   padding: 0% 2% 0% 2%;
-/*  overflow: hidden;*/
 }
 
-.container > img {
+.container>img {
   width: 100%;
 }
 
@@ -161,7 +215,7 @@ display: block;}
   text-align: right;
 }
 
-#row > h2 {
+#row>h2 {
   color: rgba(0, 0, 255, 0.6);
   font-size: 200%;
   padding: 1% 0% 1% 2%;
@@ -172,25 +226,22 @@ display: block;}
   list-style-position: inside;
 }
 
-.category > ul {
+.category>ul {
   columns: 2;
 }
 
-.category > li {
+.category>li {
   padding: 0.5% 0% 0.5% 0%;
 }
 
-.image {
-  border: 0;
-  display: inline-block;
-  position: relative;
+#core {
+  display: flex;
 }
 
-img {
-  width: 100%;
-  display: block;
-  padding: 0 0 0 0;
-  object-fit: cover;
+.img {
+  border: 0;
+  vertical-align: top;
+  position: relative;
 }
 
 .link {
@@ -200,21 +251,58 @@ img {
 
 /* Contact */
 #contact {
-  background-color: rgba(0,  0, 203, 0.3);
   display: block;
+  font-size: 1.5em;
   padding-bottom: 2%;
 }
 
-#contact > h2 {
+#contact>h2 {
   color: rgba(0, 0, 255, 0.6);
   font-size: 200%;
   padding: 1% 0% 1% 2%;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 a:visited {
   color: blue;
+}
+
+.username {
+  width: 100%;
+  padding: 0.5em 1em 0.1em 1em;
+}
+
+/* Button Container
+   Ref: https://stackoverflow.com/questions/52544089/how-to-create-two-html-buttons-side-by-side
+*/
+
+.contact-btns {
+  display: block;
+  width: 100%;
+  padding-left: 1%;
+  margin: 0 auto;
+}
+
+/* https://github.com/CompositionalIT/SAFE-Landing-Source/blob/master/resources/_gen/assets/sass/style.sass_5ad6f408b0e3e473c748aac88af0ea18.content#L123-L134 */
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 0 0.1em;
+  margin: 0.1em 0.1em;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+.contact-btn>a>i {
+  color: black;
 }
