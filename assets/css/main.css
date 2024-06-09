@@ -88,6 +88,7 @@ section {
 .inner {
   height: 80%;
   font-size: 120%;
+  padding: 4%;
   display: inline-block;
 }
 
@@ -102,17 +103,14 @@ section {
 
 #name {
   width: 40%;
-  padding: 11% 4% 13% 4%;
 }
 
 #profile {
   width: 40%;
-  padding: 11% 4% 13% 4%;
 }
 
 #profile>img {
   width: 55%;
-  padding: 0;
 }
 
 #title-center {
@@ -227,6 +225,10 @@ section {
 
 .category>li {
   padding: 0.5% 0% 0.5% 0%;
+}
+
+#core {
+  display: flex;
 }
 
 .img {
