@@ -9,7 +9,7 @@
 }
 
 #mainpage {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 203, 0.3);
   overflow-x: hidden;
 }
 
@@ -162,9 +162,9 @@ section {
 }
 
 .container {
+  width: 100%;
   position: relative;
   padding: 0% 2% 0% 2%;
-  /*  overflow: hidden;*/
 }
 
 .container>img {
@@ -220,7 +220,6 @@ img {
 
 /* Contact */
 #contact {
-  background-color: rgba(0, 0, 203, 0.3);
   display: block;
   padding-bottom: 2%;
 }
@@ -237,4 +236,29 @@ img {
 
 a:visited {
   color: blue;
+}
+
+/* Button Container 
+   Ref: https://stackoverflow.com/questions/52544089/how-to-create-two-html-buttons-side-by-side
+*/
+
+.contact-btns {
+  width: 40%;
+  padding-left: 1%;
+  margin: 0 auto;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 1% 1%;
+  margin: 1% 1%;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
