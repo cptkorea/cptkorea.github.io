@@ -243,12 +243,18 @@ a:visited {
   color: blue;
 }
 
+.username {
+  width: 100%;
+  padding: 0.5em 1em 0.1em 1em;
+}
+
 /* Button Container
    Ref: https://stackoverflow.com/questions/52544089/how-to-create-two-html-buttons-side-by-side
 */
 
 .contact-btns {
-  width: 40%;
+  display: block;
+  width: 100%;
   padding-left: 1%;
   margin: 0 auto;
 }
