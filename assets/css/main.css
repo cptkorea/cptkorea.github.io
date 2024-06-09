@@ -12,7 +12,7 @@
   background: #e7dfd8;
   background-color: #e7dfd8;
   overflow-x: hidden;
-  height: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
 #bio {
@@ -22,7 +22,8 @@
 }
 
 html,
-body {
+body,
+div {
   margin: 0;
   height: 100%;
 }
@@ -72,7 +73,6 @@ section {
   float: left;
   text-align: left;
   font-size: 3em;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -85,7 +85,6 @@ section {
   float: left;
   text-align: left;
   font-size: 3em;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-position: center center;
   overflow: hidden;
