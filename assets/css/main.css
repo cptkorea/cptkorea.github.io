@@ -5,26 +5,46 @@
   margin: 0 auto;
   max-width: 100%;
   color: #FFFFFF;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 #mainpage {
   background: rgba(255, 255, 255, 0.3);
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, 
-article, section, ul, li, nav {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font-family: 'Montserrat', sans-serif;
-vertical-align: baseline;
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+article,
+section,
+ul,
+li,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  vertical-align: baseline;
 }
 
-article, header, menu, nav, section {
-display: block;}
+article,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
 
 /* Header */
 .bottom-left {
@@ -38,7 +58,7 @@ display: block;}
 .banner {
   width: 100%;
   float: left;
-  text-align:left;
+  text-align: left;
   font-size: 3em;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
   background-size: cover;
@@ -51,9 +71,9 @@ display: block;}
   display: inline-block;
 }
 
-.inner > h1 {
+.inner>h1 {
   padding-bottom: 1%;
-  border-bottom: rgba(255,255,255, 0.6);
+  border-bottom: rgba(255, 255, 255, 0.6);
   border-bottom-style: solid;
   margin-bottom: 1%;
   font: inherit;
@@ -113,23 +133,23 @@ display: block;}
   overflow: hidden;
 }
 
-.nav-list > li {
+.nav-list>li {
   display: inline-block;
   padding: 0% 2% 0% 2%;
 }
 
-.nav-list > li > a {
+.nav-list>li>a {
   font-size: 50%;
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.nav-list > li > #port {
+.nav-list>li>#port {
   color: rgba(0, 0, 128, 0.8);
 }
 
-.nav-list > li > #proj {
+.nav-list>li>#proj {
   color: rgba(0, 0, 255, 0.5);
 }
 
@@ -144,10 +164,10 @@ display: block;}
 .container {
   position: relative;
   padding: 0% 2% 0% 2%;
-/*  overflow: hidden;*/
+  /*  overflow: hidden;*/
 }
 
-.container > img {
+.container>img {
   width: 100%;
 }
 
@@ -161,7 +181,7 @@ display: block;}
   text-align: right;
 }
 
-#row > h2 {
+#row>h2 {
   color: rgba(0, 0, 255, 0.6);
   font-size: 200%;
   padding: 1% 0% 1% 2%;
@@ -172,11 +192,11 @@ display: block;}
   list-style-position: inside;
 }
 
-.category > ul {
+.category>ul {
   columns: 2;
 }
 
-.category > li {
+.category>li {
   padding: 0.5% 0% 0.5% 0%;
 }
 
@@ -200,19 +220,19 @@ img {
 
 /* Contact */
 #contact {
-  background-color: rgba(0,  0, 203, 0.3);
+  background-color: rgba(0, 0, 203, 0.3);
   display: block;
   padding-bottom: 2%;
 }
 
-#contact > h2 {
+#contact>h2 {
   color: rgba(0, 0, 255, 0.6);
   font-size: 200%;
   padding: 1% 0% 1% 2%;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 a:visited {
