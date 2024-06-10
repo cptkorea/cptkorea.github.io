@@ -9,15 +9,15 @@
 }
 
 #mainpage {
-  background: rbga(0, 0, 0, 0);
-  background-color: rbga(0, 0, 0, 0);
+  background: rbga(231, 223, 216, 0.3);
+  background-color: rbga(231, 223, 216, 0.3);
   overflow-x: hidden;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
 #experience {
-  background: white;
-  background-color: white;
+  background: rbga(231, 223, 216, 0.3);
+  background-color: rbga(231, 223, 216, 0.3);
 }
 
 html,
@@ -67,7 +67,7 @@ section {
 
 
 /* Banner */
-.banner {
+#banner {
   width: 100%;
   float: left;
   text-align: left;
@@ -83,11 +83,16 @@ section {
   width: 100%;
   float: left;
   text-align: left;
-  font-size: 3em;
+  font-size: 1em;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
   object-fit: cover;
+}
+
+#bio-panel {
+  display: flex;
+  font-size: 1em;
 }
 
 .inner {
@@ -106,17 +111,25 @@ section {
   font-family: 'Montserrat', sans-serif;
 }
 
-#name {
+#two-split {
   width: 40%;
 }
 
-#profile {
+#bio-image {
   width: 40%;
 }
 
-#profile>img {
+#bio-image>img {
   width: 55%;
   padding-left: 10%;
+}
+
+#profile>h1 {
+  font-size: 3em;
+}
+
+#profile>div>p {
+  font-size: 2.5em;
 }
 
 #title-center {
