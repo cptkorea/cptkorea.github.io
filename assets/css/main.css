@@ -187,12 +187,17 @@ section {
   color: rgba(0, 0, 255, 0.5);
 }
 
-/* Rows */
-
-#row {
+/* Content Rows */
+.content-row {
   width: 100%;
   padding: 0em 0em 1em 0em;
   overflow: hidden;
+}
+
+.content-row>h2 {
+  color: rgba(0, 0, 255, 0.6);
+  font-size: 200%;
+  padding: 1% 0% 1% 2%;
 }
 
 .container {
@@ -213,12 +218,6 @@ section {
 #right {
   float: right;
   text-align: right;
-}
-
-#row>h2 {
-  color: rgba(0, 0, 255, 0.6);
-  font-size: 200%;
-  padding: 1% 0% 1% 2%;
 }
 
 .category {
