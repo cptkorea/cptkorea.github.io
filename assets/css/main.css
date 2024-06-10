@@ -96,7 +96,7 @@ section {
 }
 
 .inner {
-  height: 80%;
+  height: 100%;
   font-size: 120%;
   padding: 4%;
   display: inline-block;
@@ -111,15 +111,17 @@ section {
   font-family: 'Montserrat', sans-serif;
 }
 
-#two-split {
-  width: 40%;
+#two-split-left {
+  width: 30%;
+  float: left;
 }
 
-#bio-image {
+#two-split-right {
   width: 40%;
+  float: left;
 }
 
-#bio-image>img {
+#two-split-left>img {
   width: 55%;
   padding-left: 10%;
 }
