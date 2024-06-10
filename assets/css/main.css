@@ -9,15 +9,15 @@
 }
 
 #mainpage {
-  background: rbga(231, 223, 216, 0.3);
-  background-color: rbga(231, 223, 216, 0.3);
+  background: rgba(231, 223, 216, 1);
+  background-color: rgba(231, 223, 216, 1);
   overflow-x: hidden;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
+#bio,
 #experience {
-  background: rbga(231, 223, 216, 0.3);
-  background-color: rbga(231, 223, 216, 0.3);
+  background: rgba(231, 223, 216, 0.4);
+  background-color: rgba(231, 223, 216, 0.4);
 }
 
 html,
@@ -109,6 +109,7 @@ section {
   margin-bottom: 1%;
   font: inherit;
   font-family: 'Montserrat', sans-serif;
+  font-size: 4vw;
 }
 
 #two-split-left {
@@ -121,17 +122,31 @@ section {
   float: left;
 }
 
+#profile {
+  width: 40%;
+}
+
+#profile>img {
+  width: 55%;
+  padding-left: 10%;
+}
+
 #two-split-left>img {
   width: 55%;
   padding-left: 10%;
 }
 
+#two-split-right>img {
+  width: 55%;
+  padding-left: 10%;
+}
+
 #profile>h1 {
-  font-size: 3em;
+  font-size: 3vw;
 }
 
 #profile>div>p {
-  font-size: 2.5em;
+  font-size: 1.8vw;
 }
 
 #title-center {
