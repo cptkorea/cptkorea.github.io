@@ -15,10 +15,10 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
-#bio {
+#bio,
+#experience {
   background: #e7dfd8;
   background-color: #e7dfd8;
-  overflow-x: hidden;
 }
 
 html,
@@ -187,12 +187,16 @@ section {
   color: rgba(0, 0, 255, 0.5);
 }
 
-/* Rows */
-
-#row {
+/* Content Rows */
+.content-row {
   width: 100%;
   padding: 0em 0em 1em 0em;
   overflow: hidden;
+}
+
+.content-row>h2 {
+  font-size: 200%;
+  padding: 1% 0% 1% 2%;
 }
 
 .container {
@@ -205,6 +209,10 @@ section {
   width: 100%;
 }
 
+.item-list {
+  padding-left: 5%;
+}
+
 #left {
   float: left;
   text-align: left;
@@ -213,12 +221,6 @@ section {
 #right {
   float: right;
   text-align: right;
-}
-
-#row>h2 {
-  color: rgba(0, 0, 255, 0.6);
-  font-size: 200%;
-  padding: 1% 0% 1% 2%;
 }
 
 .category {
